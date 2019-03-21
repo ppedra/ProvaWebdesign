@@ -25,6 +25,18 @@ a {
     text-decoration: none;
 }
 
+td {
+    text-align: center;
+}
+
+td img {
+    max-height: 200px;
+}
+
+.container {
+    padding: 20px;
+}
+
 /* Home */
 header {
     background-color: var(--fundo-header);
@@ -91,6 +103,26 @@ section#noticias article.noticia p {
 
 section#noticias article.noticia a {
     font-weight: bold;
+}
+
+/* produtos */
+table {
+    margin: auto;
+    width: 85%;
+}
+
+td.nome-produto {
+    font-weight: bold;
+}
+
+td.value {
+    font-size: 20px;
+    position: relative;
+}
+
+td.value sup,
+td.value sub {
+    font-size: 14px;
 }
 
 /* Footer */
