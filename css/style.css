@@ -52,12 +52,12 @@ header {
 }
 
 header img {
-    background-color: #fff;
+    /* background-color: #fff; */
     margin: auto;
     padding: 5px;
     /* border-radius: 30px; */
     display: block;
-    width: 200px;
+    width: 400px;
 }
 
 header nav {
