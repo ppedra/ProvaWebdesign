@@ -6,15 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dream Pen</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/caneta_thumbnail.png" sizes="32x32" type="image/png">
 </head>
 <body>
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3537.469395466272!2d-48.4999986852758!3d-27.547939126629608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527475e01a8efef%3A0x5b0f13adab8483ec!2sSENAI+Florian%C3%B3polis+(CTAI)!5e0!3m2!1spt-BR!2sbr!4v1553206206637" 
-        width="400" 
-        height="300" 
-        frameborder="0"  
-        allowfullscreen
-    >
-    </iframe>
+    <header>
+        <img src="img/caneta_logo.png" alt="Logo: Dream Pen" id="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="empresa.html">Empresa</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Contato</h2>
+    </div>
+    <form action="" id="contato">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Seu nome">
+        <label for="empresa">Empresa:</label>
+        <input type="text" name="empreosa" id="empresa" placeholder="Nome da empresa">
+        <label for="data">Data:</label>
+        <input type="date" name="data" id="data">
+        <label for="descricao">Descrição:</label>
+        <textarea name="descricao" id="descricao" cols="40" rows="8"></textarea>
+        <button type="submit" id="enviar">Enviar</button>
+        <button type="reset" id="limpar">Limpar</button>
+    </form>
+    <div class="info">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.0972730823146!2d-48.6626148852771!3d-27.49735012446195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95274c3415d6f08d%3A0x85e66ce7bf207196!2sSupercenter+Angeloni+Bigua%C3%A7u!5e0!3m2!1spt-BR!2sbr!4v1553212482272"
+            width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <span>
+            R. Cel. Teixeira de Oliveira, 128 - Centro, Biguaçu - SC, 88160-000 <br>
+            Você pode nos encontrar em biguaçu, proximo ao supermercado Angeloni <br>
+            Nosso número: (48) 3669-1818
+        </span>
+    </div>
+    <footer>
+        <p>Dream Pen &copy; 2019</p>
+    </footer>
 </body>
 </html>
