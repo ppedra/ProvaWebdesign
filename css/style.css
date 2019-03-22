@@ -16,6 +16,10 @@ body {
     font-family: helvetica, sans-serif;
 }
 
+h2 {
+    text-align: center;
+}
+
 iframe {
     border: 0;
 }
@@ -38,7 +42,7 @@ textarea {
 }
 
 .container {
-    padding: 20px;
+    padding: 20px 10%;
 }
 
 /* Home */
